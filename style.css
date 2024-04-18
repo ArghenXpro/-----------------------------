@@ -72,14 +72,14 @@ body {
 
 .needle.hour {
     transform: translate(-50%, -108%) rotate(0deg);
-    --primary-color: blue;
+    --primary-color: rgb(0, 0, 0);
     --secondary-color: white;
 }
 
 .needle.min {
     transform: translate(-50%, -100%) rotate(0deg);
     height: 100px;
-    --primary-color: blue;
+    --primary-color: rgb(0, 0, 0);
     --secondary-color: white;
 
 }
@@ -87,11 +87,11 @@ body {
 .needle.second {
     transform: translate(-50%, -100%) rotate(0deg);
     height: 100px;
-    background-color: #e74c3C;
+    background-color: #000000;
 }
 
 .point {
-    background-color: #e74c3C;
+    background-color: #000000;
     width: 10px;
     height: 10px;
     position: absolute;
